@@ -12,9 +12,9 @@ class classLogger {
 
     public function log($data) {
         if ($this->driver->log($data)) {
-            echo "Written Successfully with driver: $this->driverClass";
+            echo "Written Successfully with driver: $this->driverClass <br>";
         } else {
-            echo "Error with driver: $this->driverClass";
+            echo "Error with driver: $this->driverClass <br>";
         }
     }
 

@@ -23,5 +23,5 @@ $mysqlParams = array(
 
 $logger = new classLogger('mysql', $mysqlParams);
 $logger->log('rasom eilute');
-
 unset($logger);
+
